@@ -82,6 +82,7 @@ main{
 }
 
 #page{
+    color: #333333;
     width: 75%;
     display: inline-block;
     vertical-align: top;
@@ -91,10 +92,18 @@ main{
     padding: 15px;
 }
 
-.summary a{
+section a{
     color: #418ae4;
 }
 
-.summary a:visited{
+section a:visited{
     color: #1e63b9;
+}
+
+.thumb{
+    text-align: center;
+}
+
+.thumb img{    
+    max-width: 200px;
 }
